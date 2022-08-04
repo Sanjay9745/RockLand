@@ -1,0 +1,206 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    /* to make the navbar still */
+}
+.navbar{
+    background-image: linear-gradient(to right,#ffff00,#ff9933);
+    padding: 0 !important;
+    /* for gradient at the top */
+}
+.navbar-col{
+    color: #fff !important;
+    
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    
+   
+}
+.navbar-nav li{
+    padding: 0 10px;
+   
+}
+.navbar-nav li a{
+    color:#fff!important;
+    font-weight: 600;
+    text-align: right;
+    /* for the white color text on navbar */
+}
+.navbar-toggler[aria-expanded="true"] {
+    color:#ff9933!important;
+    }
+.navbar-toggler:focus{
+    color:#ff9933;
+    }
+ #banner{
+    background-image: linear-gradient(to right,#ffff00,#ff9933);
+        color: rgb(100, 100, 100); /* for text*/
+        padding-top: 0;
+        /* for getting color on gradient */
+    }
+.promo-title{
+        font-size: 40px;/*to make text bigger*/
+        font-weight: 600;
+        margin-top: 100px;
+    }
+#banner a{
+    color: #fff;
+    text-decoration: none;
+    /* to make watch toutorial link white */
+}
+.bottom-img{
+    width: 100%; 
+    /* to make image flexible also in mobile */
+}
+#services{
+    padding: 80px 0;
+    /* padding 80 is left and 0 for right */
+}
+.service-img{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    /* to make image small */
+}
+.services{
+    padding: 20px;
+    /* to make space between images */
+}
+.services h4{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    /* to decorate the text*/
+}
+.title::before{
+    content: '';
+    background:#ff7b00;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* to get the line on top of what we do?*/
+    transform: translateY(63px); /*to make theline down the title*/
+}
+.title::after{
+    content: '';
+    background: #ff7b00;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block; /* to get the line on top of what we do?*/
+    transform: translateY(8px); /*to make the line down the title*/
+}
+#services .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#ffff00,#ff9933);
+    /* to make the switch only awesome */
+}
+@media only screen and (max-width: 600px){
+    .title::after{
+        transform: translateY(22px); 
+    }
+}
+
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;/*To make a color on why chooose us*/
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+#about-us ul li{
+    margin: 10px 0;
+}
+#about-us ul{
+    margin-left: 20px;
+}
+
+.user-details{
+    display: inline-block;
+    font-size: 12px;/* to get the text with that image*/
+}
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+/* to make effect on images */
+}
+#footer{
+    background-image: linear-gradient(to right,#ffff00,#ff9933);
+   
+
+}
+.footer-img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer-box .bi{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,#ffff00,#ff9933);
+} 
+.footer-box .form-control{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,#ffff00,#ff9933);
+}
+hr{
+    background-color: #fff;
+}
+.copyright{
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+}
